@@ -1,0 +1,2680 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1mczpa');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1mczpa#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?1mczpa') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?1mczpa') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?1mczpa##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="fb-icon-"], [class*=" fb-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fb-icon-adjustments-horizontal-filled {
+  &:before {
+    content: $fb-icon-adjustments-horizontal-filled; 
+  }
+}
+.fb-icon-adjustments-vertical-filled {
+  &:before {
+    content: $fb-icon-adjustments-vertical-filled; 
+  }
+}
+.fb-icon-annotation-filled {
+  &:before {
+    content: $fb-icon-annotation-filled; 
+  }
+}
+.fb-icon-archive-filled {
+  &:before {
+    content: $fb-icon-archive-filled; 
+  }
+}
+.fb-icon-arrow-up-right-from-square-filled {
+  &:before {
+    content: $fb-icon-arrow-up-right-from-square-filled; 
+  }
+}
+.fb-icon-award-filled {
+  &:before {
+    content: $fb-icon-award-filled; 
+  }
+}
+.fb-icon-badge-check-filled {
+  &:before {
+    content: $fb-icon-badge-check-filled; 
+  }
+}
+.fb-icon-bell-active-alt-filled {
+  &:before {
+    content: $fb-icon-bell-active-alt-filled; 
+  }
+}
+.fb-icon-bell-active-filled {
+  &:before {
+    content: $fb-icon-bell-active-filled; 
+  }
+}
+.fb-icon-bell-ring-filled {
+  &:before {
+    content: $fb-icon-bell-ring-filled; 
+  }
+}
+.fb-icon-bell-filled {
+  &:before {
+    content: $fb-icon-bell-filled; 
+  }
+}
+.fb-icon-blender-phone-filled {
+  &:before {
+    content: $fb-icon-blender-phone-filled; 
+  }
+}
+.fb-icon-book-open-filled {
+  &:before {
+    content: $fb-icon-book-open-filled; 
+  }
+}
+.fb-icon-book-filled {
+  &:before {
+    content: $fb-icon-book-filled; 
+  }
+}
+.fb-icon-bookmark-filled {
+  &:before {
+    content: $fb-icon-bookmark-filled; 
+  }
+}
+.fb-icon-brain-filled {
+  &:before {
+    content: $fb-icon-brain-filled; 
+  }
+}
+.fb-icon-briefcase-filled {
+  &:before {
+    content: $fb-icon-briefcase-filled; 
+  }
+}
+.fb-icon-bug-filled {
+  &:before {
+    content: $fb-icon-bug-filled; 
+  }
+}
+.fb-icon-building-filled {
+  &:before {
+    content: $fb-icon-building-filled; 
+  }
+}
+.fb-icon-bullhorn-filled {
+  &:before {
+    content: $fb-icon-bullhorn-filled; 
+  }
+}
+.fb-icon-calendar-edit-filled {
+  &:before {
+    content: $fb-icon-calendar-edit-filled; 
+  }
+}
+.fb-icon-calendar-month-filled {
+  &:before {
+    content: $fb-icon-calendar-month-filled; 
+  }
+}
+.fb-icon-calendar-plus-filled {
+  &:before {
+    content: $fb-icon-calendar-plus-filled; 
+  }
+}
+.fb-icon-calendar-week-filled {
+  &:before {
+    content: $fb-icon-calendar-week-filled; 
+  }
+}
+.fb-icon-chart-mixed-dollar-filled {
+  &:before {
+    content: $fb-icon-chart-mixed-dollar-filled; 
+  }
+}
+.fb-icon-chart-pie-filled {
+  &:before {
+    content: $fb-icon-chart-pie-filled; 
+  }
+}
+.fb-icon-check-circle-filled {
+  &:before {
+    content: $fb-icon-check-circle-filled; 
+  }
+}
+.fb-icon-check-plus-circle-filled {
+  &:before {
+    content: $fb-icon-check-plus-circle-filled; 
+  }
+}
+.fb-icon-circle-minus-filled {
+  &:before {
+    content: $fb-icon-circle-minus-filled; 
+  }
+}
+.fb-icon-circle-plus-filled {
+  &:before {
+    content: $fb-icon-circle-plus-filled; 
+  }
+}
+.fb-icon-clock-filled {
+  &:before {
+    content: $fb-icon-clock-filled; 
+  }
+}
+.fb-icon-close-circle-filled {
+  &:before {
+    content: $fb-icon-close-circle-filled; 
+  }
+}
+.fb-icon-cloud-arrow-up-filled {
+  &:before {
+    content: $fb-icon-cloud-arrow-up-filled; 
+  }
+}
+.fb-icon-code-branch-filled {
+  &:before {
+    content: $fb-icon-code-branch-filled; 
+  }
+}
+.fb-icon-code-fork-filled {
+  &:before {
+    content: $fb-icon-code-fork-filled; 
+  }
+}
+.fb-icon-code-merge-filled {
+  &:before {
+    content: $fb-icon-code-merge-filled; 
+  }
+}
+.fb-icon-code-pull-request-filled {
+  &:before {
+    content: $fb-icon-code-pull-request-filled; 
+  }
+}
+.fb-icon-cog-filled {
+  &:before {
+    content: $fb-icon-cog-filled; 
+  }
+}
+.fb-icon-column-filled {
+  &:before {
+    content: $fb-icon-column-filled; 
+  }
+}
+.fb-icon-database-filled {
+  &:before {
+    content: $fb-icon-database-filled; 
+  }
+}
+.fb-icon-desktop-pc-filled {
+  &:before {
+    content: $fb-icon-desktop-pc-filled; 
+  }
+}
+.fb-icon-download-filled {
+  &:before {
+    content: $fb-icon-download-filled; 
+  }
+}
+.fb-icon-draw-square-filled {
+  &:before {
+    content: $fb-icon-draw-square-filled; 
+  }
+}
+.fb-icon-edit-filled {
+  &:before {
+    content: $fb-icon-edit-filled; 
+  }
+}
+.fb-icon-envelope-open-filled {
+  &:before {
+    content: $fb-icon-envelope-open-filled; 
+  }
+}
+.fb-icon-envelope-filled {
+  &:before {
+    content: $fb-icon-envelope-filled; 
+  }
+}
+.fb-icon-exclamation-circle-filled {
+  &:before {
+    content: $fb-icon-exclamation-circle-filled; 
+  }
+}
+.fb-icon-eye-slash-filled {
+  &:before {
+    content: $fb-icon-eye-slash-filled; 
+  }
+}
+.fb-icon-eye-filled {
+  &:before {
+    content: $fb-icon-eye-filled; 
+  }
+}
+.fb-icon-filter-filled {
+  &:before {
+    content: $fb-icon-filter-filled; 
+  }
+}
+.fb-icon-fire-filled {
+  &:before {
+    content: $fb-icon-fire-filled; 
+  }
+}
+.fb-icon-flag-filled {
+  &:before {
+    content: $fb-icon-flag-filled; 
+  }
+}
+.fb-icon-floppy-disk-alt-filled {
+  &:before {
+    content: $fb-icon-floppy-disk-alt-filled; 
+  }
+}
+.fb-icon-floppy-disk-filled {
+  &:before {
+    content: $fb-icon-floppy-disk-filled; 
+  }
+}
+.fb-icon-gift-box-filled {
+  &:before {
+    content: $fb-icon-gift-box-filled; 
+  }
+}
+.fb-icon-globe-filled {
+  &:before {
+    content: $fb-icon-globe-filled; 
+  }
+}
+.fb-icon-grid-plus-filled {
+  &:before {
+    content: $fb-icon-grid-plus-filled; 
+  }
+}
+.fb-icon-grid-filled {
+  &:before {
+    content: $fb-icon-grid-filled; 
+  }
+}
+.fb-icon-heart-filled {
+  &:before {
+    content: $fb-icon-heart-filled; 
+  }
+}
+.fb-icon-home-filled {
+  &:before {
+    content: $fb-icon-home-filled; 
+  }
+}
+.fb-icon-hourglass-filled {
+  &:before {
+    content: $fb-icon-hourglass-filled; 
+  }
+}
+.fb-icon-image-filled {
+  &:before {
+    content: $fb-icon-image-filled; 
+  }
+}
+.fb-icon-inbox-full-filled {
+  &:before {
+    content: $fb-icon-inbox-full-filled; 
+  }
+}
+.fb-icon-inbox-filled {
+  &:before {
+    content: $fb-icon-inbox-filled; 
+  }
+}
+.fb-icon-info-circle-filled {
+  &:before {
+    content: $fb-icon-info-circle-filled; 
+  }
+}
+.fb-icon-keyboard-filled {
+  &:before {
+    content: $fb-icon-keyboard-filled; 
+  }
+}
+.fb-icon-label-filled {
+  &:before {
+    content: $fb-icon-label-filled; 
+  }
+}
+.fb-icon-landmark-filled {
+  &:before {
+    content: $fb-icon-landmark-filled; 
+  }
+}
+.fb-icon-layers-filled {
+  &:before {
+    content: $fb-icon-layers-filled; 
+  }
+}
+.fb-icon-life-saver-filled {
+  &:before {
+    content: $fb-icon-life-saver-filled; 
+  }
+}
+.fb-icon-lightbulb-filled {
+  &:before {
+    content: $fb-icon-lightbulb-filled; 
+  }
+}
+.fb-icon-lock-open-filled {
+  &:before {
+    content: $fb-icon-lock-open-filled; 
+  }
+}
+.fb-icon-lock-time-filled {
+  &:before {
+    content: $fb-icon-lock-time-filled; 
+  }
+}
+.fb-icon-lock-filled {
+  &:before {
+    content: $fb-icon-lock-filled; 
+  }
+}
+.fb-icon-mail-box-filled {
+  &:before {
+    content: $fb-icon-mail-box-filled; 
+  }
+}
+.fb-icon-map-pin-alt-filled {
+  &:before {
+    content: $fb-icon-map-pin-alt-filled; 
+  }
+}
+.fb-icon-map-pin-filled {
+  &:before {
+    content: $fb-icon-map-pin-filled; 
+  }
+}
+.fb-icon-message-caption-filled {
+  &:before {
+    content: $fb-icon-message-caption-filled; 
+  }
+}
+.fb-icon-message-dots-filled {
+  &:before {
+    content: $fb-icon-message-dots-filled; 
+  }
+}
+.fb-icon-messages-filled {
+  &:before {
+    content: $fb-icon-messages-filled; 
+  }
+}
+.fb-icon-mobile-phone-filled {
+  &:before {
+    content: $fb-icon-mobile-phone-filled; 
+  }
+}
+.fb-icon-newspaper-filled {
+  &:before {
+    content: $fb-icon-newspaper-filled; 
+  }
+}
+.fb-icon-objects-column-filled {
+  &:before {
+    content: $fb-icon-objects-column-filled; 
+  }
+}
+.fb-icon-palette-filled {
+  &:before {
+    content: $fb-icon-palette-filled; 
+  }
+}
+.fb-icon-paper-plane-filled {
+  &:before {
+    content: $fb-icon-paper-plane-filled; 
+  }
+}
+.fb-icon-pen-nib-filled {
+  &:before {
+    content: $fb-icon-pen-nib-filled; 
+  }
+}
+.fb-icon-pen-filled {
+  &:before {
+    content: $fb-icon-pen-filled; 
+  }
+}
+.fb-icon-phone-hangup-filled {
+  &:before {
+    content: $fb-icon-phone-hangup-filled; 
+  }
+}
+.fb-icon-phone-filled {
+  &:before {
+    content: $fb-icon-phone-filled; 
+  }
+}
+.fb-icon-printer-filled {
+  &:before {
+    content: $fb-icon-printer-filled; 
+  }
+}
+.fb-icon-question-circle-filled {
+  &:before {
+    content: $fb-icon-question-circle-filled; 
+  }
+}
+.fb-icon-rocket-filled {
+  &:before {
+    content: $fb-icon-rocket-filled; 
+  }
+}
+.fb-icon-search-filled {
+  &:before {
+    content: $fb-icon-search-filled; 
+  }
+}
+.fb-icon-server-filled {
+  &:before {
+    content: $fb-icon-server-filled; 
+  }
+}
+.fb-icon-share-nodes-filled {
+  &:before {
+    content: $fb-icon-share-nodes-filled; 
+  }
+}
+.fb-icon-shield-check-filled {
+  &:before {
+    content: $fb-icon-shield-check-filled; 
+  }
+}
+.fb-icon-shield-filled {
+  &:before {
+    content: $fb-icon-shield-filled; 
+  }
+}
+.fb-icon-star-half-stroke-filled {
+  &:before {
+    content: $fb-icon-star-half-stroke-filled; 
+  }
+}
+.fb-icon-star-half-filled {
+  &:before {
+    content: $fb-icon-star-half-filled; 
+  }
+}
+.fb-icon-star-filled {
+  &:before {
+    content: $fb-icon-star-filled; 
+  }
+}
+.fb-icon-swatchbook-filled {
+  &:before {
+    content: $fb-icon-swatchbook-filled; 
+  }
+}
+.fb-icon-table-column-filled {
+  &:before {
+    content: $fb-icon-table-column-filled; 
+  }
+}
+.fb-icon-table-row-filled {
+  &:before {
+    content: $fb-icon-table-row-filled; 
+  }
+}
+.fb-icon-tablet-filled {
+  &:before {
+    content: $fb-icon-tablet-filled; 
+  }
+}
+.fb-icon-terminal-filled {
+  &:before {
+    content: $fb-icon-terminal-filled; 
+  }
+}
+.fb-icon-ticket-filled {
+  &:before {
+    content: $fb-icon-ticket-filled; 
+  }
+}
+.fb-icon-trash-bin-filled {
+  &:before {
+    content: $fb-icon-trash-bin-filled; 
+  }
+}
+.fb-icon-truck-filled {
+  &:before {
+    content: $fb-icon-truck-filled; 
+  }
+}
+.fb-icon-upload-filled {
+  &:before {
+    content: $fb-icon-upload-filled; 
+  }
+}
+.fb-icon-volume-down-filled {
+  &:before {
+    content: $fb-icon-volume-down-filled; 
+  }
+}
+.fb-icon-volume-up-filled {
+  &:before {
+    content: $fb-icon-volume-up-filled; 
+  }
+}
+.fb-icon-wand-magic-sparkles-filled {
+  &:before {
+    content: $fb-icon-wand-magic-sparkles-filled; 
+  }
+}
+.fb-icon-window-restore {
+  &:before {
+    content: $fb-icon-window-restore; 
+  }
+}
+.fb-icon-window-filled {
+  &:before {
+    content: $fb-icon-window-filled; 
+  }
+}
+.fb-icon-zoom-in-filled {
+  &:before {
+    content: $fb-icon-zoom-in-filled; 
+  }
+}
+.fb-icon-zoom-out-filled {
+  &:before {
+    content: $fb-icon-zoom-out-filled; 
+  }
+}
+.fb-icon-arrow-right-alt-filled {
+  &:before {
+    content: $fb-icon-arrow-right-alt-filled; 
+  }
+}
+.fb-icon-caret-down-filled {
+  &:before {
+    content: $fb-icon-caret-down-filled; 
+  }
+}
+.fb-icon-caret-left-filled {
+  &:before {
+    content: $fb-icon-caret-left-filled; 
+  }
+}
+.fb-icon-caret-right-filled {
+  &:before {
+    content: $fb-icon-caret-right-filled; 
+  }
+}
+.fb-icon-caret-sort-filled {
+  &:before {
+    content: $fb-icon-caret-sort-filled; 
+  }
+}
+.fb-icon-caret-up-filled {
+  &:before {
+    content: $fb-icon-caret-up-filled; 
+  }
+}
+.fb-icon-forward-filled {
+  &:before {
+    content: $fb-icon-forward-filled; 
+  }
+}
+.fb-icon-reply-all-filled {
+  &:before {
+    content: $fb-icon-reply-all-filled; 
+  }
+}
+.fb-icon-reply-filled {
+  &:before {
+    content: $fb-icon-reply-filled; 
+  }
+}
+.fb-icon-share-all-filled {
+  &:before {
+    content: $fb-icon-share-all-filled; 
+  }
+}
+.fb-icon-file-circle-plus-filled {
+  &:before {
+    content: $fb-icon-file-circle-plus-filled; 
+  }
+}
+.fb-icon-archive-arrow-down-filled {
+  &:before {
+    content: $fb-icon-archive-arrow-down-filled; 
+  }
+}
+.fb-icon-clipboard-check-filled {
+  &:before {
+    content: $fb-icon-clipboard-check-filled; 
+  }
+}
+.fb-icon-clipboard-clean-filled {
+  &:before {
+    content: $fb-icon-clipboard-clean-filled; 
+  }
+}
+.fb-icon-clipboard-list-filled {
+  &:before {
+    content: $fb-icon-clipboard-list-filled; 
+  }
+}
+.fb-icon-clipboard-filled {
+  &:before {
+    content: $fb-icon-clipboard-filled; 
+  }
+}
+.fb-icon-file-chart-bar-filled {
+  &:before {
+    content: $fb-icon-file-chart-bar-filled; 
+  }
+}
+.fb-icon-file-check-filled {
+  &:before {
+    content: $fb-icon-file-check-filled; 
+  }
+}
+.fb-icon-file-clone-filled {
+  &:before {
+    content: $fb-icon-file-clone-filled; 
+  }
+}
+.fb-icon-file-code-filled {
+  &:before {
+    content: $fb-icon-file-code-filled; 
+  }
+}
+.fb-icon-file-copy-alt-filled {
+  &:before {
+    content: $fb-icon-file-copy-alt-filled; 
+  }
+}
+.fb-icon-file-copy-filled {
+  &:before {
+    content: $fb-icon-file-copy-filled; 
+  }
+}
+.fb-icon-file-csv-filled {
+  &:before {
+    content: $fb-icon-file-csv-filled; 
+  }
+}
+.fb-icon-file-doc-filled {
+  &:before {
+    content: $fb-icon-file-doc-filled; 
+  }
+}
+.fb-icon-file-export-filled {
+  &:before {
+    content: $fb-icon-file-export-filled; 
+  }
+}
+.fb-icon-file-image-filled {
+  &:before {
+    content: $fb-icon-file-image-filled; 
+  }
+}
+.fb-icon-file-import-filled {
+  &:before {
+    content: $fb-icon-file-import-filled; 
+  }
+}
+.fb-icon-file-invoice-filled {
+  &:before {
+    content: $fb-icon-file-invoice-filled; 
+  }
+}
+.fb-icon-file-lines-filled {
+  &:before {
+    content: $fb-icon-file-lines-filled; 
+  }
+}
+.fb-icon-file-music-filled {
+  &:before {
+    content: $fb-icon-file-music-filled; 
+  }
+}
+.fb-icon-file-paste-filled {
+  &:before {
+    content: $fb-icon-file-paste-filled; 
+  }
+}
+.fb-icon-file-pdf-filled {
+  &:before {
+    content: $fb-icon-file-pdf-filled; 
+  }
+}
+.fb-icon-file-pen-filled {
+  &:before {
+    content: $fb-icon-file-pen-filled; 
+  }
+}
+.fb-icon-file-ppt-filled {
+  &:before {
+    content: $fb-icon-file-ppt-filled; 
+  }
+}
+.fb-icon-file-search-filled {
+  &:before {
+    content: $fb-icon-file-search-filled; 
+  }
+}
+.fb-icon-file-shield-filled {
+  &:before {
+    content: $fb-icon-file-shield-filled; 
+  }
+}
+.fb-icon-file-video-filled {
+  &:before {
+    content: $fb-icon-file-video-filled; 
+  }
+}
+.fb-icon-file-word-filled {
+  &:before {
+    content: $fb-icon-file-word-filled; 
+  }
+}
+.fb-icon-file-zip-filled {
+  &:before {
+    content: $fb-icon-file-zip-filled; 
+  }
+}
+.fb-icon-file-filled {
+  &:before {
+    content: $fb-icon-file-filled; 
+  }
+}
+.fb-icon-folder-arrow-right-filled {
+  &:before {
+    content: $fb-icon-folder-arrow-right-filled; 
+  }
+}
+.fb-icon-folder-duplicate-filled {
+  &:before {
+    content: $fb-icon-folder-duplicate-filled; 
+  }
+}
+.fb-icon-folder-open-filled {
+  &:before {
+    content: $fb-icon-folder-open-filled; 
+  }
+}
+.fb-icon-folder-plus-filled {
+  &:before {
+    content: $fb-icon-folder-plus-filled; 
+  }
+}
+.fb-icon-folder-filled {
+  &:before {
+    content: $fb-icon-folder-filled; 
+  }
+}
+.fb-icon-cart-filled {
+  &:before {
+    content: $fb-icon-cart-filled; 
+  }
+}
+.fb-icon-cart-plus-alt-filled {
+  &:before {
+    content: $fb-icon-cart-plus-alt-filled; 
+  }
+}
+.fb-icon-cart-plus-filled {
+  &:before {
+    content: $fb-icon-cart-plus-filled; 
+  }
+}
+.fb-icon-cash-filled {
+  &:before {
+    content: $fb-icon-cash-filled; 
+  }
+}
+.fb-icon-credit-card-plus-filled {
+  &:before {
+    content: $fb-icon-credit-card-plus-filled; 
+  }
+}
+.fb-icon-credit-card-filled {
+  &:before {
+    content: $fb-icon-credit-card-filled; 
+  }
+}
+.fb-icon-receipt-filled {
+  &:before {
+    content: $fb-icon-receipt-filled; 
+  }
+}
+.fb-icon-sale-percent-filled {
+  &:before {
+    content: $fb-icon-sale-percent-filled; 
+  }
+}
+.fb-icon-scale-balanced-filled {
+  &:before {
+    content: $fb-icon-scale-balanced-filled; 
+  }
+}
+.fb-icon-shopping-bag-filled {
+  &:before {
+    content: $fb-icon-shopping-bag-filled; 
+  }
+}
+.fb-icon-store-filled {
+  &:before {
+    content: $fb-icon-store-filled; 
+  }
+}
+.fb-icon-tag-filled {
+  &:before {
+    content: $fb-icon-tag-filled; 
+  }
+}
+.fb-icon-user-headset-filled {
+  &:before {
+    content: $fb-icon-user-headset-filled; 
+  }
+}
+.fb-icon-wallet-filled {
+  &:before {
+    content: $fb-icon-wallet-filled; 
+  }
+}
+.fb-icon-list-music-filled {
+  &:before {
+    content: $fb-icon-list-music-filled; 
+  }
+}
+.fb-icon-backward-step-filled {
+  &:before {
+    content: $fb-icon-backward-step-filled; 
+  }
+}
+.fb-icon-camera-photo-filled {
+  &:before {
+    content: $fb-icon-camera-photo-filled; 
+  }
+}
+.fb-icon-caption-filled {
+  &:before {
+    content: $fb-icon-caption-filled; 
+  }
+}
+.fb-icon-circle-pause-filled {
+  &:before {
+    content: $fb-icon-circle-pause-filled; 
+  }
+}
+.fb-icon-clapperboard-play-filled {
+  &:before {
+    content: $fb-icon-clapperboard-play-filled; 
+  }
+}
+.fb-icon-computer-speaker-filled {
+  &:before {
+    content: $fb-icon-computer-speaker-filled; 
+  }
+}
+.fb-icon-forward-step-filled {
+  &:before {
+    content: $fb-icon-forward-step-filled; 
+  }
+}
+.fb-icon-headphones-filled {
+  &:before {
+    content: $fb-icon-headphones-filled; 
+  }
+}
+.fb-icon-microphone-slash-filled {
+  &:before {
+    content: $fb-icon-microphone-slash-filled; 
+  }
+}
+.fb-icon-microphone-filled {
+  &:before {
+    content: $fb-icon-microphone-filled; 
+  }
+}
+.fb-icon-pause-filled {
+  &:before {
+    content: $fb-icon-pause-filled; 
+  }
+}
+.fb-icon-play-filled {
+  &:before {
+    content: $fb-icon-play-filled; 
+  }
+}
+.fb-icon-rectangle-list-filled {
+  &:before {
+    content: $fb-icon-rectangle-list-filled; 
+  }
+}
+.fb-icon-stop-filled {
+  &:before {
+    content: $fb-icon-stop-filled; 
+  }
+}
+.fb-icon-video-camera-filled {
+  &:before {
+    content: $fb-icon-video-camera-filled; 
+  }
+}
+.fb-icon-volume-mute-filled {
+  &:before {
+    content: $fb-icon-volume-mute-filled; 
+  }
+}
+.fb-icon-face-explode-filled {
+  &:before {
+    content: $fb-icon-face-explode-filled; 
+  }
+}
+.fb-icon-face-grin-stars-filled {
+  &:before {
+    content: $fb-icon-face-grin-stars-filled; 
+  }
+}
+.fb-icon-face-grin-filled {
+  &:before {
+    content: $fb-icon-face-grin-filled; 
+  }
+}
+.fb-icon-face-laugh-filled {
+  &:before {
+    content: $fb-icon-face-laugh-filled; 
+  }
+}
+.fb-icon-thumbs-down-filled {
+  &:before {
+    content: $fb-icon-thumbs-down-filled; 
+  }
+}
+.fb-icon-thumbs-up-filled {
+  &:before {
+    content: $fb-icon-thumbs-up-filled; 
+  }
+}
+.fb-icon-indent-filled {
+  &:before {
+    content: $fb-icon-indent-filled; 
+  }
+}
+.fb-icon-outdent-filled {
+  &:before {
+    content: $fb-icon-outdent-filled; 
+  }
+}
+.fb-icon-paragraph-filled {
+  &:before {
+    content: $fb-icon-paragraph-filled; 
+  }
+}
+.fb-icon-quote-filled {
+  &:before {
+    content: $fb-icon-quote-filled; 
+  }
+}
+.fb-icon-moon-filled {
+  &:before {
+    content: $fb-icon-moon-filled; 
+  }
+}
+.fb-icon-sun-filled {
+  &:before {
+    content: $fb-icon-sun-filled; 
+  }
+}
+.fb-icon-users-group-filled {
+  &:before {
+    content: $fb-icon-users-group-filled; 
+  }
+}
+.fb-icon-address-book-filled {
+  &:before {
+    content: $fb-icon-address-book-filled; 
+  }
+}
+.fb-icon-profile-card-filled {
+  &:before {
+    content: $fb-icon-profile-card-filled; 
+  }
+}
+.fb-icon-user-add-filled {
+  &:before {
+    content: $fb-icon-user-add-filled; 
+  }
+}
+.fb-icon-user-circle-filled {
+  &:before {
+    content: $fb-icon-user-circle-filled; 
+  }
+}
+.fb-icon-user-edit-filled {
+  &:before {
+    content: $fb-icon-user-edit-filled; 
+  }
+}
+.fb-icon-user-remove-filled {
+  &:before {
+    content: $fb-icon-user-remove-filled; 
+  }
+}
+.fb-icon-user-settings-filled {
+  &:before {
+    content: $fb-icon-user-settings-filled; 
+  }
+}
+.fb-icon-user-filled {
+  &:before {
+    content: $fb-icon-user-filled; 
+  }
+}
+.fb-icon-users-filled {
+  &:before {
+    content: $fb-icon-users-filled; 
+  }
+}
+.fb-icon-address-book {
+  &:before {
+    content: $fb-icon-address-book; 
+  }
+}
+.fb-icon-profile-card {
+  &:before {
+    content: $fb-icon-profile-card; 
+  }
+}
+.fb-icon-user-add {
+  &:before {
+    content: $fb-icon-user-add; 
+  }
+}
+.fb-icon-user-circle {
+  &:before {
+    content: $fb-icon-user-circle; 
+  }
+}
+.fb-icon-user-edit {
+  &:before {
+    content: $fb-icon-user-edit; 
+  }
+}
+.fb-icon-user-remove {
+  &:before {
+    content: $fb-icon-user-remove; 
+  }
+}
+.fb-icon-user-settings {
+  &:before {
+    content: $fb-icon-user-settings; 
+  }
+}
+.fb-icon-user {
+  &:before {
+    content: $fb-icon-user; 
+  }
+}
+.fb-icon-users-group {
+  &:before {
+    content: $fb-icon-users-group; 
+  }
+}
+.fb-icon-users {
+  &:before {
+    content: $fb-icon-users; 
+  }
+}
+.fb-icon-moon {
+  &:before {
+    content: $fb-icon-moon; 
+  }
+}
+.fb-icon-sun {
+  &:before {
+    content: $fb-icon-sun; 
+  }
+}
+.fb-icon-quote {
+  &:before {
+    content: $fb-icon-quote; 
+  }
+}
+.fb-icon-align-center {
+  &:before {
+    content: $fb-icon-align-center; 
+  }
+}
+.fb-icon-indent {
+  &:before {
+    content: $fb-icon-indent; 
+  }
+}
+.fb-icon-language .path1 {
+  &:before {
+    content: $fb-icon-language-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-language .path2 {
+  &:before {
+    content: $fb-icon-language-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-letter-bold {
+  &:before {
+    content: $fb-icon-letter-bold; 
+  }
+}
+.fb-icon-letter-italic {
+  &:before {
+    content: $fb-icon-letter-italic; 
+  }
+}
+.fb-icon-letter-underline {
+  &:before {
+    content: $fb-icon-letter-underline; 
+  }
+}
+.fb-icon-list {
+  &:before {
+    content: $fb-icon-list; 
+  }
+}
+.fb-icon-ordered-list {
+  &:before {
+    content: $fb-icon-ordered-list; 
+  }
+}
+.fb-icon-outdent {
+  &:before {
+    content: $fb-icon-outdent; 
+  }
+}
+.fb-icon-paragraph {
+  &:before {
+    content: $fb-icon-paragraph; 
+  }
+}
+.fb-icon-text-size {
+  &:before {
+    content: $fb-icon-text-size; 
+  }
+}
+.fb-icon-text-slash {
+  &:before {
+    content: $fb-icon-text-slash; 
+  }
+}
+.fb-icon-thumbs-down {
+  &:before {
+    content: $fb-icon-thumbs-down; 
+  }
+}
+.fb-icon-face-explode .path1 {
+  &:before {
+    content: $fb-icon-face-explode-path1;  
+    color: rgb(56, 56, 56);
+  }
+}
+.fb-icon-face-explode .path2 {
+  &:before {
+    content: $fb-icon-face-explode-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-face-grin-stars .path1 {
+  &:before {
+    content: $fb-icon-face-grin-stars-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-face-grin-stars .path2 {
+  &:before {
+    content: $fb-icon-face-grin-stars-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-face-grin-stars .path3 {
+  &:before {
+    content: $fb-icon-face-grin-stars-path3;  
+    margin-left: -1em;  
+    color: rgb(56, 56, 56);
+  }
+}
+.fb-icon-face-grin-stars .path4 {
+  &:before {
+    content: $fb-icon-face-grin-stars-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-face-grin {
+  &:before {
+    content: $fb-icon-face-grin; 
+  }
+}
+.fb-icon-face-laugh {
+  &:before {
+    content: $fb-icon-face-laugh; 
+  }
+}
+.fb-icon-thumbs-up {
+  &:before {
+    content: $fb-icon-thumbs-up; 
+  }
+}
+.fb-icon-list-music {
+  &:before {
+    content: $fb-icon-list-music; 
+  }
+}
+.fb-icon-backward-step {
+  &:before {
+    content: $fb-icon-backward-step; 
+  }
+}
+.fb-icon-camera-photo {
+  &:before {
+    content: $fb-icon-camera-photo; 
+  }
+}
+.fb-icon-caption {
+  &:before {
+    content: $fb-icon-caption; 
+  }
+}
+.fb-icon-circle-pause {
+  &:before {
+    content: $fb-icon-circle-pause; 
+  }
+}
+.fb-icon-clapperboard-play {
+  &:before {
+    content: $fb-icon-clapperboard-play; 
+  }
+}
+.fb-icon-computer-speaker {
+  &:before {
+    content: $fb-icon-computer-speaker; 
+  }
+}
+.fb-icon-forward-step {
+  &:before {
+    content: $fb-icon-forward-step; 
+  }
+}
+.fb-icon-headphones {
+  &:before {
+    content: $fb-icon-headphones; 
+  }
+}
+.fb-icon-microphone-slash {
+  &:before {
+    content: $fb-icon-microphone-slash; 
+  }
+}
+.fb-icon-microphone {
+  &:before {
+    content: $fb-icon-microphone; 
+  }
+}
+.fb-icon-pause {
+  &:before {
+    content: $fb-icon-pause; 
+  }
+}
+.fb-icon-play {
+  &:before {
+    content: $fb-icon-play; 
+  }
+}
+.fb-icon-rectangle-list {
+  &:before {
+    content: $fb-icon-rectangle-list; 
+  }
+}
+.fb-icon-shuffle {
+  &:before {
+    content: $fb-icon-shuffle; 
+  }
+}
+.fb-icon-stop {
+  &:before {
+    content: $fb-icon-stop; 
+  }
+}
+.fb-icon-video-camera {
+  &:before {
+    content: $fb-icon-video-camera; 
+  }
+}
+.fb-icon-volume-mute .path1 {
+  &:before {
+    content: $fb-icon-volume-mute-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-volume-mute .path2 {
+  &:before {
+    content: $fb-icon-volume-mute-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-dollar {
+  &:before {
+    content: $fb-icon-dollar; 
+  }
+}
+.fb-icon-cart-plus-alt {
+  &:before {
+    content: $fb-icon-cart-plus-alt; 
+  }
+}
+.fb-icon-cart-plus {
+  &:before {
+    content: $fb-icon-cart-plus; 
+  }
+}
+.fb-icon-cart {
+  &:before {
+    content: $fb-icon-cart; 
+  }
+}
+.fb-icon-cash {
+  &:before {
+    content: $fb-icon-cash; 
+  }
+}
+.fb-icon-credit-card-plus .path1 {
+  &:before {
+    content: $fb-icon-credit-card-plus-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-credit-card-plus .path2 {
+  &:before {
+    content: $fb-icon-credit-card-plus-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-credit-card {
+  &:before {
+    content: $fb-icon-credit-card; 
+  }
+}
+.fb-icon-euro {
+  &:before {
+    content: $fb-icon-euro; 
+  }
+}
+.fb-icon-receipt {
+  &:before {
+    content: $fb-icon-receipt; 
+  }
+}
+.fb-icon-sale-percent {
+  &:before {
+    content: $fb-icon-sale-percent; 
+  }
+}
+.fb-icon-scale-balanced {
+  &:before {
+    content: $fb-icon-scale-balanced; 
+  }
+}
+.fb-icon-shopping-bag {
+  &:before {
+    content: $fb-icon-shopping-bag; 
+  }
+}
+.fb-icon-store {
+  &:before {
+    content: $fb-icon-store; 
+  }
+}
+.fb-icon-tag {
+  &:before {
+    content: $fb-icon-tag; 
+  }
+}
+.fb-icon-user-headset {
+  &:before {
+    content: $fb-icon-user-headset; 
+  }
+}
+.fb-icon-wallet {
+  &:before {
+    content: $fb-icon-wallet; 
+  }
+}
+.fb-icon-clipboard-clean .path1 {
+  &:before {
+    content: $fb-icon-clipboard-clean-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-clipboard-clean .path2 {
+  &:before {
+    content: $fb-icon-clipboard-clean-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-archive-arrow-down {
+  &:before {
+    content: $fb-icon-archive-arrow-down; 
+  }
+}
+.fb-icon-clipboard-check {
+  &:before {
+    content: $fb-icon-clipboard-check; 
+  }
+}
+.fb-icon-clipboard-list {
+  &:before {
+    content: $fb-icon-clipboard-list; 
+  }
+}
+.fb-icon-clipboard {
+  &:before {
+    content: $fb-icon-clipboard; 
+  }
+}
+.fb-icon-file-chart-bar {
+  &:before {
+    content: $fb-icon-file-chart-bar; 
+  }
+}
+.fb-icon-file-check {
+  &:before {
+    content: $fb-icon-file-check; 
+  }
+}
+.fb-icon-file-circle-plus {
+  &:before {
+    content: $fb-icon-file-circle-plus; 
+  }
+}
+.fb-icon-file-clone {
+  &:before {
+    content: $fb-icon-file-clone; 
+  }
+}
+.fb-icon-file-code {
+  &:before {
+    content: $fb-icon-file-code; 
+  }
+}
+.fb-icon-file-copy-alt {
+  &:before {
+    content: $fb-icon-file-copy-alt; 
+  }
+}
+.fb-icon-file-copy {
+  &:before {
+    content: $fb-icon-file-copy; 
+  }
+}
+.fb-icon-file-csv {
+  &:before {
+    content: $fb-icon-file-csv; 
+  }
+}
+.fb-icon-file-doc .path1 {
+  &:before {
+    content: $fb-icon-file-doc-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-file-doc .path2 {
+  &:before {
+    content: $fb-icon-file-doc-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-file-export {
+  &:before {
+    content: $fb-icon-file-export; 
+  }
+}
+.fb-icon-file-image .path1 {
+  &:before {
+    content: $fb-icon-file-image-path1;  
+    color: rgb(56, 56, 56);
+  }
+}
+.fb-icon-file-image .path2 {
+  &:before {
+    content: $fb-icon-file-image-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-file-import {
+  &:before {
+    content: $fb-icon-file-import; 
+  }
+}
+.fb-icon-file-invoice {
+  &:before {
+    content: $fb-icon-file-invoice; 
+  }
+}
+.fb-icon-file-lines {
+  &:before {
+    content: $fb-icon-file-lines; 
+  }
+}
+.fb-icon-file-music {
+  &:before {
+    content: $fb-icon-file-music; 
+  }
+}
+.fb-icon-file-paste {
+  &:before {
+    content: $fb-icon-file-paste; 
+  }
+}
+.fb-icon-file-pdf {
+  &:before {
+    content: $fb-icon-file-pdf; 
+  }
+}
+.fb-icon-file-pen {
+  &:before {
+    content: $fb-icon-file-pen; 
+  }
+}
+.fb-icon-file-ppt {
+  &:before {
+    content: $fb-icon-file-ppt; 
+  }
+}
+.fb-icon-file-search {
+  &:before {
+    content: $fb-icon-file-search; 
+  }
+}
+.fb-icon-file-shield {
+  &:before {
+    content: $fb-icon-file-shield; 
+  }
+}
+.fb-icon-file-video {
+  &:before {
+    content: $fb-icon-file-video; 
+  }
+}
+.fb-icon-file-word {
+  &:before {
+    content: $fb-icon-file-word; 
+  }
+}
+.fb-icon-file-zip {
+  &:before {
+    content: $fb-icon-file-zip; 
+  }
+}
+.fb-icon-file {
+  &:before {
+    content: $fb-icon-file; 
+  }
+}
+.fb-icon-folder-arrow-right {
+  &:before {
+    content: $fb-icon-folder-arrow-right; 
+  }
+}
+.fb-icon-folder-duplicate {
+  &:before {
+    content: $fb-icon-folder-duplicate; 
+  }
+}
+.fb-icon-folder-open {
+  &:before {
+    content: $fb-icon-folder-open; 
+  }
+}
+.fb-icon-folder-plus {
+  &:before {
+    content: $fb-icon-folder-plus; 
+  }
+}
+.fb-icon-folder {
+  &:before {
+    content: $fb-icon-folder; 
+  }
+}
+.fb-icon-arrow-up-from-bracket {
+  &:before {
+    content: $fb-icon-arrow-up-from-bracket; 
+  }
+}
+.fb-icon-arrow-up-right-down-left {
+  &:before {
+    content: $fb-icon-arrow-up-right-down-left; 
+  }
+}
+.fb-icon-arrow-up {
+  &:before {
+    content: $fb-icon-arrow-up; 
+  }
+}
+.fb-icon-arrows-repeat-count {
+  &:before {
+    content: $fb-icon-arrows-repeat-count; 
+  }
+}
+.fb-icon-arrows-repeat {
+  &:before {
+    content: $fb-icon-arrows-repeat; 
+  }
+}
+.fb-icon-caret-down {
+  &:before {
+    content: $fb-icon-caret-down; 
+  }
+}
+.fb-icon-chevron-double-right {
+  &:before {
+    content: $fb-icon-chevron-double-right; 
+  }
+}
+.fb-icon-chevron-double-up {
+  &:before {
+    content: $fb-icon-chevron-double-up; 
+  }
+}
+.fb-icon-chevron-down {
+  &:before {
+    content: $fb-icon-chevron-down; 
+  }
+}
+.fb-icon-chevron-left {
+  &:before {
+    content: $fb-icon-chevron-left; 
+  }
+}
+.fb-icon-chevron-right {
+  &:before {
+    content: $fb-icon-chevron-right; 
+  }
+}
+.fb-icon-arrow-left-to-bracket {
+  &:before {
+    content: $fb-icon-arrow-left-to-bracket; 
+  }
+}
+.fb-icon-arrow-left {
+  &:before {
+    content: $fb-icon-arrow-left; 
+  }
+}
+.fb-icon-arrow-right-alt {
+  &:before {
+    content: $fb-icon-arrow-right-alt; 
+  }
+}
+.fb-icon-arrow-right-to-bracket {
+  &:before {
+    content: $fb-icon-arrow-right-to-bracket; 
+  }
+}
+.fb-icon-arrow-right {
+  &:before {
+    content: $fb-icon-arrow-right; 
+  }
+}
+.fb-icon-arrow-sort-letters {
+  &:before {
+    content: $fb-icon-arrow-sort-letters; 
+  }
+}
+.fb-icon-arrow-up-down {
+  &:before {
+    content: $fb-icon-arrow-up-down; 
+  }
+}
+.fb-icon-chevron-sort {
+  &:before {
+    content: $fb-icon-chevron-sort; 
+  }
+}
+.fb-icon-chevron-up {
+  &:before {
+    content: $fb-icon-chevron-up; 
+  }
+}
+.fb-icon-compress {
+  &:before {
+    content: $fb-icon-compress; 
+  }
+}
+.fb-icon-expand {
+  &:before {
+    content: $fb-icon-expand; 
+  }
+}
+.fb-icon-forward {
+  &:before {
+    content: $fb-icon-forward; 
+  }
+}
+.fb-icon-minimize {
+  &:before {
+    content: $fb-icon-minimize; 
+  }
+}
+.fb-icon-redo {
+  &:before {
+    content: $fb-icon-redo; 
+  }
+}
+.fb-icon-refresh {
+  &:before {
+    content: $fb-icon-refresh; 
+  }
+}
+.fb-icon-angle-down {
+  &:before {
+    content: $fb-icon-angle-down; 
+  }
+}
+.fb-icon-angle-left {
+  &:before {
+    content: $fb-icon-angle-left; 
+  }
+}
+.fb-icon-angle-right {
+  &:before {
+    content: $fb-icon-angle-right; 
+  }
+}
+.fb-icon-angle-up {
+  &:before {
+    content: $fb-icon-angle-up; 
+  }
+}
+.fb-icon-arrow-down-to-bracket {
+  &:before {
+    content: $fb-icon-arrow-down-to-bracket; 
+  }
+}
+.fb-icon-arrow-down {
+  &:before {
+    content: $fb-icon-arrow-down; 
+  }
+}
+.fb-icon-caret-left {
+  &:before {
+    content: $fb-icon-caret-left; 
+  }
+}
+.fb-icon-caret-right {
+  &:before {
+    content: $fb-icon-caret-right; 
+  }
+}
+.fb-icon-caret-sort {
+  &:before {
+    content: $fb-icon-caret-sort; 
+  }
+}
+.fb-icon-caret-up {
+  &:before {
+    content: $fb-icon-caret-up; 
+  }
+}
+.fb-icon-chevron-double-down {
+  &:before {
+    content: $fb-icon-chevron-double-down; 
+  }
+}
+.fb-icon-chevron-double-left {
+  &:before {
+    content: $fb-icon-chevron-double-left; 
+  }
+}
+.fb-icon-reply-all {
+  &:before {
+    content: $fb-icon-reply-all; 
+  }
+}
+.fb-icon-reply {
+  &:before {
+    content: $fb-icon-reply; 
+  }
+}
+.fb-icon-share-all {
+  &:before {
+    content: $fb-icon-share-all; 
+  }
+}
+.fb-icon-sort-horizontal {
+  &:before {
+    content: $fb-icon-sort-horizontal; 
+  }
+}
+.fb-icon-sort {
+  &:before {
+    content: $fb-icon-sort; 
+  }
+}
+.fb-icon-undo {
+  &:before {
+    content: $fb-icon-undo; 
+  }
+}
+.fb-icon-badge-check {
+  &:before {
+    content: $fb-icon-badge-check; 
+  }
+}
+.fb-icon-ban .path1 {
+  &:before {
+    content: $fb-icon-ban-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-ban .path2 {
+  &:before {
+    content: $fb-icon-ban-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-bars-from-left {
+  &:before {
+    content: $fb-icon-bars-from-left; 
+  }
+}
+.fb-icon-bars {
+  &:before {
+    content: $fb-icon-bars; 
+  }
+}
+.fb-icon-bell-active-alt {
+  &:before {
+    content: $fb-icon-bell-active-alt; 
+  }
+}
+.fb-icon-bell-active {
+  &:before {
+    content: $fb-icon-bell-active; 
+  }
+}
+.fb-icon-bell-ring {
+  &:before {
+    content: $fb-icon-bell-ring; 
+  }
+}
+.fb-icon-bell {
+  &:before {
+    content: $fb-icon-bell; 
+  }
+}
+.fb-icon-blender-phone {
+  &:before {
+    content: $fb-icon-blender-phone; 
+  }
+}
+.fb-icon-book-open {
+  &:before {
+    content: $fb-icon-book-open; 
+  }
+}
+.fb-icon-book {
+  &:before {
+    content: $fb-icon-book; 
+  }
+}
+.fb-icon-bookmark {
+  &:before {
+    content: $fb-icon-bookmark; 
+  }
+}
+.fb-icon-brain {
+  &:before {
+    content: $fb-icon-brain; 
+  }
+}
+.fb-icon-briefcase {
+  &:before {
+    content: $fb-icon-briefcase; 
+  }
+}
+.fb-icon-bug {
+  &:before {
+    content: $fb-icon-bug; 
+  }
+}
+.fb-icon-building {
+  &:before {
+    content: $fb-icon-building; 
+  }
+}
+.fb-icon-bullhorn {
+  &:before {
+    content: $fb-icon-bullhorn; 
+  }
+}
+.fb-icon-calendar-edit {
+  &:before {
+    content: $fb-icon-calendar-edit; 
+  }
+}
+.fb-icon-calendar-month {
+  &:before {
+    content: $fb-icon-calendar-month; 
+  }
+}
+.fb-icon-calendar-week {
+  &:before {
+    content: $fb-icon-calendar-week; 
+  }
+}
+.fb-icon-chart-line-down {
+  &:before {
+    content: $fb-icon-chart-line-down; 
+  }
+}
+.fb-icon-chart-line-up {
+  &:before {
+    content: $fb-icon-chart-line-up; 
+  }
+}
+.fb-icon-chart-mixed-dollar {
+  &:before {
+    content: $fb-icon-chart-mixed-dollar; 
+  }
+}
+.fb-icon-chart-mixed {
+  &:before {
+    content: $fb-icon-chart-mixed; 
+  }
+}
+.fb-icon-chart-pie {
+  &:before {
+    content: $fb-icon-chart-pie; 
+  }
+}
+.fb-icon-chart {
+  &:before {
+    content: $fb-icon-chart; 
+  }
+}
+.fb-icon-check-circle {
+  &:before {
+    content: $fb-icon-check-circle; 
+  }
+}
+.fb-icon-check-plus-circle {
+  &:before {
+    content: $fb-icon-check-plus-circle; 
+  }
+}
+.fb-icon-check {
+  &:before {
+    content: $fb-icon-check; 
+  }
+}
+.fb-icon-circle-minus .path1 {
+  &:before {
+    content: $fb-icon-circle-minus-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-circle-minus .path2 {
+  &:before {
+    content: $fb-icon-circle-minus-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-circle-plus {
+  &:before {
+    content: $fb-icon-circle-plus; 
+  }
+}
+.fb-icon-clock {
+  &:before {
+    content: $fb-icon-clock; 
+  }
+}
+.fb-icon-close-circle {
+  &:before {
+    content: $fb-icon-close-circle; 
+  }
+}
+.fb-icon-close {
+  &:before {
+    content: $fb-icon-close; 
+  }
+}
+.fb-icon-cloud-arrow-up {
+  &:before {
+    content: $fb-icon-cloud-arrow-up; 
+  }
+}
+.fb-icon-code-branch {
+  &:before {
+    content: $fb-icon-code-branch; 
+  }
+}
+.fb-icon-code-fork {
+  &:before {
+    content: $fb-icon-code-fork; 
+  }
+}
+.fb-icon-code-merge {
+  &:before {
+    content: $fb-icon-code-merge; 
+  }
+}
+.fb-icon-code-pull-request {
+  &:before {
+    content: $fb-icon-code-pull-request; 
+  }
+}
+.fb-icon-code {
+  &:before {
+    content: $fb-icon-code; 
+  }
+}
+.fb-icon-cog {
+  &:before {
+    content: $fb-icon-cog; 
+  }
+}
+.fb-icon-column {
+  &:before {
+    content: $fb-icon-column; 
+  }
+}
+.fb-icon-command {
+  &:before {
+    content: $fb-icon-command; 
+  }
+}
+.fb-icon-database {
+  &:before {
+    content: $fb-icon-database; 
+  }
+}
+.fb-icon-desktop-pc {
+  &:before {
+    content: $fb-icon-desktop-pc; 
+  }
+}
+.fb-icon-dna {
+  &:before {
+    content: $fb-icon-dna; 
+  }
+}
+.fb-icon-dots-horizontal {
+  &:before {
+    content: $fb-icon-dots-horizontal; 
+  }
+}
+.fb-icon-dots-vertical {
+  &:before {
+    content: $fb-icon-dots-vertical; 
+  }
+}
+.fb-icon-download {
+  &:before {
+    content: $fb-icon-download; 
+  }
+}
+.fb-icon-draw-square {
+  &:before {
+    content: $fb-icon-draw-square; 
+  }
+}
+.fb-icon-edit {
+  &:before {
+    content: $fb-icon-edit; 
+  }
+}
+.fb-icon-envelope-open {
+  &:before {
+    content: $fb-icon-envelope-open; 
+  }
+}
+.fb-icon-envelope {
+  &:before {
+    content: $fb-icon-envelope; 
+  }
+}
+.fb-icon-exclamation-circle {
+  &:before {
+    content: $fb-icon-exclamation-circle; 
+  }
+}
+.fb-icon-eye-slash {
+  &:before {
+    content: $fb-icon-eye-slash; 
+  }
+}
+.fb-icon-eye {
+  &:before {
+    content: $fb-icon-eye; 
+  }
+}
+.fb-icon-filter {
+  &:before {
+    content: $fb-icon-filter; 
+  }
+}
+.fb-icon-fingerprint {
+  &:before {
+    content: $fb-icon-fingerprint; 
+  }
+}
+.fb-icon-fire {
+  &:before {
+    content: $fb-icon-fire; 
+  }
+}
+.fb-icon-flag {
+  &:before {
+    content: $fb-icon-flag; 
+  }
+}
+.fb-icon-floppy-disk-alt .path1 {
+  &:before {
+    content: $fb-icon-floppy-disk-alt-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-floppy-disk-alt .path2 {
+  &:before {
+    content: $fb-icon-floppy-disk-alt-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-floppy-disk-alt .path3 {
+  &:before {
+    content: $fb-icon-floppy-disk-alt-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-floppy-disk-alt .path4 {
+  &:before {
+    content: $fb-icon-floppy-disk-alt-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-floppy-disk .path1 {
+  &:before {
+    content: $fb-icon-floppy-disk-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-floppy-disk .path2 {
+  &:before {
+    content: $fb-icon-floppy-disk-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-floppy-disk .path3 {
+  &:before {
+    content: $fb-icon-floppy-disk-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-gift-box {
+  &:before {
+    content: $fb-icon-gift-box; 
+  }
+}
+.fb-icon-globe {
+  &:before {
+    content: $fb-icon-globe; 
+  }
+}
+.fb-icon-grid-plus {
+  &:before {
+    content: $fb-icon-grid-plus; 
+  }
+}
+.fb-icon-grid {
+  &:before {
+    content: $fb-icon-grid; 
+  }
+}
+.fb-icon-heart {
+  &:before {
+    content: $fb-icon-heart; 
+  }
+}
+.fb-icon-home {
+  &:before {
+    content: $fb-icon-home; 
+  }
+}
+.fb-icon-hourglass {
+  &:before {
+    content: $fb-icon-hourglass; 
+  }
+}
+.fb-icon-image {
+  &:before {
+    content: $fb-icon-image; 
+  }
+}
+.fb-icon-inbox-full {
+  &:before {
+    content: $fb-icon-inbox-full; 
+  }
+}
+.fb-icon-inbox {
+  &:before {
+    content: $fb-icon-inbox; 
+  }
+}
+.fb-icon-info-circle {
+  &:before {
+    content: $fb-icon-info-circle; 
+  }
+}
+.fb-icon-keyboard {
+  &:before {
+    content: $fb-icon-keyboard; 
+  }
+}
+.fb-icon-label {
+  &:before {
+    content: $fb-icon-label; 
+  }
+}
+.fb-icon-landmark {
+  &:before {
+    content: $fb-icon-landmark; 
+  }
+}
+.fb-icon-layers {
+  &:before {
+    content: $fb-icon-layers; 
+  }
+}
+.fb-icon-life-saver {
+  &:before {
+    content: $fb-icon-life-saver; 
+  }
+}
+.fb-icon-lightbulb {
+  &:before {
+    content: $fb-icon-lightbulb; 
+  }
+}
+.fb-icon-link {
+  &:before {
+    content: $fb-icon-link; 
+  }
+}
+.fb-icon-lock-open {
+  &:before {
+    content: $fb-icon-lock-open; 
+  }
+}
+.fb-icon-lock-time {
+  &:before {
+    content: $fb-icon-lock-time; 
+  }
+}
+.fb-icon-lock {
+  &:before {
+    content: $fb-icon-lock; 
+  }
+}
+.fb-icon-mail-box {
+  &:before {
+    content: $fb-icon-mail-box; 
+  }
+}
+.fb-icon-map-pin-alt {
+  &:before {
+    content: $fb-icon-map-pin-alt; 
+  }
+}
+.fb-icon-map-pin {
+  &:before {
+    content: $fb-icon-map-pin; 
+  }
+}
+.fb-icon-message-caption {
+  &:before {
+    content: $fb-icon-message-caption; 
+  }
+}
+.fb-icon-message-dots {
+  &:before {
+    content: $fb-icon-message-dots; 
+  }
+}
+.fb-icon-messages {
+  &:before {
+    content: $fb-icon-messages; 
+  }
+}
+.fb-icon-minus {
+  &:before {
+    content: $fb-icon-minus; 
+  }
+}
+.fb-icon-mobile-phone {
+  &:before {
+    content: $fb-icon-mobile-phone; 
+  }
+}
+.fb-icon-newspaper {
+  &:before {
+    content: $fb-icon-newspaper; 
+  }
+}
+.fb-icon-objects-column .path1 {
+  &:before {
+    content: $fb-icon-objects-column-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-objects-column .path2 {
+  &:before {
+    content: $fb-icon-objects-column-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-palette {
+  &:before {
+    content: $fb-icon-palette; 
+  }
+}
+.fb-icon-paper-clip {
+  &:before {
+    content: $fb-icon-paper-clip; 
+  }
+}
+.fb-icon-paper-plane {
+  &:before {
+    content: $fb-icon-paper-plane; 
+  }
+}
+.fb-icon-pen-nib {
+  &:before {
+    content: $fb-icon-pen-nib; 
+  }
+}
+.fb-icon-pen {
+  &:before {
+    content: $fb-icon-pen; 
+  }
+}
+.fb-icon-phone-hangup {
+  &:before {
+    content: $fb-icon-phone-hangup; 
+  }
+}
+.fb-icon-phone {
+  &:before {
+    content: $fb-icon-phone; 
+  }
+}
+.fb-icon-plus {
+  &:before {
+    content: $fb-icon-plus; 
+  }
+}
+.fb-icon-printer {
+  &:before {
+    content: $fb-icon-printer; 
+  }
+}
+.fb-icon-qr-code .path1 {
+  &:before {
+    content: $fb-icon-qr-code-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-qr-code .path2 {
+  &:before {
+    content: $fb-icon-qr-code-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-qr-code .path3 {
+  &:before {
+    content: $fb-icon-qr-code-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-question-circle {
+  &:before {
+    content: $fb-icon-question-circle; 
+  }
+}
+.fb-icon-restore-window {
+  &:before {
+    content: $fb-icon-restore-window; 
+  }
+}
+.fb-icon-rocket {
+  &:before {
+    content: $fb-icon-rocket; 
+  }
+}
+.fb-icon-ruler-combined {
+  &:before {
+    content: $fb-icon-ruler-combined; 
+  }
+}
+.fb-icon-search {
+  &:before {
+    content: $fb-icon-search; 
+  }
+}
+.fb-icon-server .path1 {
+  &:before {
+    content: $fb-icon-server-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-server .path2 {
+  &:before {
+    content: $fb-icon-server-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-share-nodes {
+  &:before {
+    content: $fb-icon-share-nodes; 
+  }
+}
+.fb-icon-shield-check {
+  &:before {
+    content: $fb-icon-shield-check; 
+  }
+}
+.fb-icon-shield {
+  &:before {
+    content: $fb-icon-shield; 
+  }
+}
+.fb-icon-star-half-stroke {
+  &:before {
+    content: $fb-icon-star-half-stroke; 
+  }
+}
+.fb-icon-star-half {
+  &:before {
+    content: $fb-icon-star-half; 
+  }
+}
+.fb-icon-star {
+  &:before {
+    content: $fb-icon-star; 
+  }
+}
+.fb-icon-swatchbook {
+  &:before {
+    content: $fb-icon-swatchbook; 
+  }
+}
+.fb-icon-table-column {
+  &:before {
+    content: $fb-icon-table-column; 
+  }
+}
+.fb-icon-table-row {
+  &:before {
+    content: $fb-icon-table-row; 
+  }
+}
+.fb-icon-tablet {
+  &:before {
+    content: $fb-icon-tablet; 
+  }
+}
+.fb-icon-terminal {
+  &:before {
+    content: $fb-icon-terminal; 
+  }
+}
+.fb-icon-ticket {
+  &:before {
+    content: $fb-icon-ticket; 
+  }
+}
+.fb-icon-trash-bin {
+  &:before {
+    content: $fb-icon-trash-bin; 
+  }
+}
+.fb-icon-truck {
+  &:before {
+    content: $fb-icon-truck; 
+  }
+}
+.fb-icon-upload {
+  &:before {
+    content: $fb-icon-upload; 
+  }
+}
+.fb-icon-volume-down {
+  &:before {
+    content: $fb-icon-volume-down; 
+  }
+}
+.fb-icon-volume-up {
+  &:before {
+    content: $fb-icon-volume-up; 
+  }
+}
+.fb-icon-wand-magic-sparkles {
+  &:before {
+    content: $fb-icon-wand-magic-sparkles; 
+  }
+}
+.fb-icon-window {
+  &:before {
+    content: $fb-icon-window; 
+  }
+}
+.fb-icon-zoom-in {
+  &:before {
+    content: $fb-icon-zoom-in; 
+  }
+}
+.fb-icon-zoom-out {
+  &:before {
+    content: $fb-icon-zoom-out; 
+  }
+}
+.fb-icon-calendar-plus {
+  &:before {
+    content: $fb-icon-calendar-plus; 
+  }
+}
+.fb-icon-annotation {
+  &:before {
+    content: $fb-icon-annotation; 
+  }
+}
+.fb-icon-archive {
+  &:before {
+    content: $fb-icon-archive; 
+  }
+}
+.fb-icon-arrow-up-right-from-square {
+  &:before {
+    content: $fb-icon-arrow-up-right-from-square; 
+  }
+}
+.fb-icon-atom {
+  &:before {
+    content: $fb-icon-atom; 
+  }
+}
+.fb-icon-award .path1 {
+  &:before {
+    content: $fb-icon-award-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.fb-icon-award .path2 {
+  &:before {
+    content: $fb-icon-award-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.fb-icon-adjustments-vertical {
+  &:before {
+    content: $fb-icon-adjustments-vertical; 
+  }
+}
+.fb-icon-adjustments-horizontal {
+  &:before {
+    content: $fb-icon-adjustments-horizontal; 
+  }
+}
+
